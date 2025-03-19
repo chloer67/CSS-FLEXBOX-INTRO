@@ -1,7 +1,10 @@
 body{
     box-sizing: border-box;
+    /*Feel free to change the values of the following
+    properties to your liking!*/
     background-color:antiquewhite;
-    font-family: cursive;
+    font-family: cursive, sans-serif;
+    color: purple;
 }
 
 /*References the div with the class attribute of "container"*/

@@ -11,7 +11,7 @@ body{
 
 /*References the div with the class attribute of "container"*/
 .container{
-    /*Declares that the element and its children can be styled with flexbox*/
+    /*Declares that the element and its children(the elements inside it) can be styled with flexbox*/
     display: flex;
 }
 

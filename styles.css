@@ -1,4 +1,6 @@
 body{
+    /*Remember, the property name should be followed by a colon,
+    and the value should be followed by a semicolon*/
     box-sizing: border-box;
     /*Feel free to change the values of the following
     properties to your liking!*/
@@ -15,7 +17,7 @@ body{
 
 
 img{
-    /*Sets image sizing to be a it more uniform*/
+    /*Sets image sizing to be a bit more uniform*/
     min-width: 25vw;
     max-width: 100vw;
 }

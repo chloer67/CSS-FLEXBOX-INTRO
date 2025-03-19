@@ -1,14 +1,25 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+<!DOCTYPE html><!--Tells the browser what version of html we are using-->
+<html lang="en"><!--Tells the browser what language our website is in-->
+<head><!--Contains information about website that only browser sees-->
+    <meta charset="UTF-8"><!--Character encoding-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--Dictates Size of viewing screen-->
+    <link rel="stylesheet" href="styles.css"><!--Allows html file to know css file exists-->
     <title>CSS Flexbox Image Gallery</title>
 </head>
 <body>
+    <!--A heading for our image gallery!-->
     <h1>CSS Flexbox Image Gallery</h1>
+    <!--
+    The below div has a class attribute of "container". We can reference it by using the 
+    ".container" selector in CSS. With flexbox, we use the container as a "box" to organize the
+    elements inside of it.
+    -->
     <div class="container">
+        <!--
+        Each image is contained inside a div with a class attribute that has a similar name.
+        This allows us to still easily make certain changes to only specific images, and
+        to make our gallery look more interesting!
+        -->
         <div class="image1">
             <img src="images/image1.jpeg" alt="cute cate photo">
         </div>

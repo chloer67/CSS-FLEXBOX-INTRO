@@ -4,6 +4,15 @@ body{
     font-family: cursive;
 }
 
+/*References the div with the class attribute of "container"*/
 .container{
+    /*Declares that the element and its children can be styled with flexbox*/
     display: flex;
+}
+
+
+img{
+    /*Sets image sizing to be a it more uniform*/
+    min-width: 25vw;
+    max-width: 100vw;
 }
